@@ -23,7 +23,7 @@ export default function Home(){
 
         try {
             const res = await axios({
-                url: `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=d27e5c5fce0d4225460c2731f085a6cb`,
+                url: `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=APIKEY`,
                 method: 'get',
                 timeout: 4000,
             })
